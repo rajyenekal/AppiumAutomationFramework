@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression">
+
+	<listeners> 
+		<listener class-name="test.base.ExtentReportManager"></listener>
+	</listeners>
+
+  <test thread-count="5" name="Test">
+  
+    <classes>
+     <!-- <class name="tests.TC001"/>-->
+     <class name="tests.TC002"/>
+     <class name="tests.TC003"/>
+
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Regression -->
